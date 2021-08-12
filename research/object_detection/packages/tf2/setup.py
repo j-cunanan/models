@@ -25,7 +25,7 @@ REQUIRED_PACKAGES = [
     # tf-models-official (which requires google-could-bigquery)  ends
     # up installing the latest grpcio which causes problems later.
     'google-cloud-bigquery==1.21.0',
-    'tf-models-official',
+    #'tf-models-official',
 ]
 
 setup(
